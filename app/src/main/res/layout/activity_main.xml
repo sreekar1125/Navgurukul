@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_centerVertical="true"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/navgurkul_logo"
+        android:layout_margin="5dp"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/email"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:layout_margin="10dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/email"
+        android:padding="10dp"
+        android:id="@+id/password"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:shadowColor="@color/orange"
+        android:layout_margin="10dp"
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password"
+        android:layout_margin="25dp"
+        android:padding="10dp"
+        android:id="@+id/login"
+        android:text="Login"
+        android:backgroundTint="@color/orange"
+        android:textColor="@color/white"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="25dp"
+        android:padding="10dp"
+        android:id="@+id/glogin"
+        android:text="Google Login"
+        android:backgroundTint="@color/orange"
+        android:textColor="@color/white"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/forgotPassword"
+            android:text="Forgot Password ?"
+            android:layout_below="@id/login"
+            android:textColor="@color/orange"
+            android:backgroundTint="@color/orange"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/signup"
+            android:text="Register new"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/orange"
+            android:padding="10dp"
+            android:layout_gravity="end"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

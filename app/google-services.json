@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "889202319527",
+    "project_id": "navgurukul-4cb7b",
+    "storage_bucket": "navgurukul-4cb7b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:889202319527:android:f05c873708945066d73b82",
+        "android_client_info": {
+          "package_name": "com.example.navgurukul"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "889202319527-s6pk0sg6bcbt7g4rf1hq7tle4v6e9eke.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwZoQjNjgcgUJaiWdUoDdeHu9j9x2EwAc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "889202319527-s6pk0sg6bcbt7g4rf1hq7tle4v6e9eke.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
